@@ -28,9 +28,9 @@ namespace TextBox
             Console.BackgroundColor = BackColor;
             Console.ForegroundColor = ForeColor;
             Console.WriteLine(result);
-            //Text.PadLeft(Padding, ' ');
+            //Text.PadLeft(Text.Length + Padding, ' ');
             //Console.WriteLine(Text);
-            //Text.PadRight(Padding, ' ');
+            //Text.PadRight(Text.Length + Padding, ' ');
         }
     }
 }
